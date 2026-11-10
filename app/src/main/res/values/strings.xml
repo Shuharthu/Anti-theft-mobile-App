@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App & Branding -->
+    <string name="app_name">Mobile Chor</string>
+    <string name="app_tagline">Personal Anti-Theft Security &amp; Phone Guardian</string>
+    <string name="device_owner_label">Registered Owner Protection</string>
+
+    <!-- Navigation & Tabs -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_evidence">Intruder Gallery</string>
+    <string name="nav_radar">Proximity Finder</string>
+    <string name="nav_report">Police Report</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Onboarding & Guardrail Disclosures -->
+    <string name="onboarding_title">Setup Your Phone Guardian</string>
+    <string name="onboarding_subtitle">Owner-consented anti-theft protection for your own personal device</string>
+    <string name="onboarding_welcome_desc">Mobile Chor is designed solely to protect your own device against theft or accidental loss. It enforces strict owner authentication and respects Android security boundaries.</string>
+    
+    <string name="disclosure_guardrail_title">Important Security &amp; Legal Notice</string>
+    <string name="disclosure_guardrail_1">• Mobile Chor is NOT covert stalkerware. It operates with a persistent foreground status and cannot be hidden from the device owner.</string>
+    <string name="disclosure_guardrail_2">• Remote actions (lock, alarm, wipe, capture) can ONLY be executed by you using your secure owner credentials.</string>
+    <string name="disclosure_guardrail_3">• Audio recording is disabled by default due to wiretapping laws. Only photo evidence is captured automatically upon unauthorized tampering.</string>
+    <string name="disclosure_guardrail_4">• Android Factory Reset Protection (FRP) and carrier IMEI blacklisting are your ultimate safety net if the phone is wiped.</string>
+    <string name="btn_agree_continue">I Agree &amp; Continue</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_finish">Activate Protection</string>
+
+    <!-- Permission Explanations (Pre-disclosure cards) -->
+    <string name="perm_admin_title">Device Administrator Rights</string>
+    <string name="perm_admin_desc">Required to prevent thieves from force-uninstalling the app and to enable instant remote screen lock and secure wipe.</string>
+    <string name="btn_grant_admin">Grant Device Admin</string>
+
+    <string name="perm_camera_title">Front Camera Intruder Capture</string>
+    <string name="perm_camera_desc">Takes photos silently when someone enters the wrong PIN twice or attempts to tamper with the SIM or power settings.</string>
+    <string name="btn_grant_camera">Allow Camera</string>
+
+    <string name="perm_location_title">GPS &amp; Network Live Location</string>
+    <string name="perm_location_desc">Tracks your phone\'s position on your private dashboard, enables safe geofencing, and transmits an emergency location ping when battery falls below 15%.</string>
+    <string name="btn_grant_location">Allow Location</string>
+
+    <string name="perm_phone_title">SIM Card &amp; Telephony State</string>
+    <string name="perm_phone_desc">Detects if a thief swaps out your SIM card and immediately transmits the new phone number and location to your emergency contact.</string>
+    <string name="btn_grant_phone">Allow Phone State</string>
+
+    <string name="perm_audio_title">Emergency Audio Recording (Optional)</string>
+    <string name="perm_audio_desc">Optional 10-second ambient clip on intrusion. Disabled by default due to privacy regulations. Requires explicit consent.</string>
+    <string name="perm_audio_legal_warning">Legal Disclaimer: Covert audio recording of individuals without consent may violate wiretapping laws in Bangladesh and other jurisdictions. Enable only if you accept full legal responsibility.</string>
+
+    <string name="perm_bluetooth_title">Bluetooth Nearby Finder</string>
+    <string name="perm_bluetooth_desc">Enables short-range (10-30m) Bluetooth radar signal to locate your phone under furniture or in a bag via your companion dashboard.</string>
+
+    <!-- Owner Registration -->
+    <string name="setup_owner_account_title">Owner &amp; Recovery Binding</string>
+    <string name="owner_name_label">Owner Full Name</string>
+    <string name="owner_email_label">Owner Primary Email</string>
+    <string name="owner_phone_label">This Phone\'s Number</string>
+    <string name="backup_contact_name_label">Emergency Contact Name</string>
+    <string name="backup_phone_label">Emergency Contact Phone Number</string>
+    <string name="backup_email_label">Emergency Alert Email</string>
+    <string name="custom_lost_message_label">Custom Lost Screen Message</string>
+    <string name="custom_lost_message_default">This phone is lost or stolen. Please return it to the owner. A police report has been filed.</string>
+
+    <!-- PIN Setup -->
+    <string name="setup_pin_title">Set App Security PIN</string>
+    <string name="setup_pin_desc">Create a 4 to 6 digit security PIN required to open settings, deactivate admin, or unlock Lost Mode.</string>
+    <string name="pin_label">Security PIN</string>
+    <string name="pin_confirm_label">Confirm Security PIN</string>
+    <string name="pin_mismatch_error">PINs do not match. Please try again.</string>
+    <string name="pin_invalid_error">PIN must be between 4 and 6 digits.</string>
+
+    <!-- Dashboard Status -->
+    <string name="status_protected">PROTECTION ACTIVE</string>
+    <string name="status_compromised">TAMPER ALERT TRIGGERED</string>
+    <string name="status_lost_mode">LOST MODE ENGAGED</string>
+    <string name="status_battery">Battery</string>
+    <string name="status_network">Network</string>
+    <string name="status_sim">SIM State</string>
+    <string name="status_last_seen">Last Ping</string>
+    <string name="status_device_id">Device Fingerprint</string>
+    <string name="status_imei_note">IMEI (Android 10+ Android ID fallback)</string>
+
+    <!-- Quick Action Controls -->
+    <string name="action_sound_alarm">Test Loud Siren</string>
+    <string name="action_stop_alarm">Stop Siren</string>
+    <string name="action_engage_lost">Engage Lost Mode</string>
+    <string name="action_test_camera">Test Intruder Capture</string>
+    <string name="action_sync_cloud">Sync With Dashboard</string>
+
+    <!-- Lock Screen & Security Verification -->
+    <string name="lock_enter_pin">Enter Security PIN</string>
+    <string name="lock_biometric_prompt">Verify Owner Identity</string>
+    <string name="lock_wrong_pin">Incorrect PIN! Attempt %1$d of 2.</string>
+    <string name="lock_intruder_captured">Intruder photo silently captured and emergency alert sent!</string>
+    <string name="lock_emergency_call">Emergency Call</string>
+    <string name="lock_call_owner">Call Owner at %1$s</string>
+
+    <!-- Intrusion & Alerts -->
+    <string name="alert_wrong_pin_title">Tamper Alert: Failed PIN Attempts</string>
+    <string name="alert_wrong_pin_body">Multiple incorrect PINs entered at %1$s. Photos captured.</string>
+    <string name="alert_sim_change_title">CRITICAL: SIM Card Removed / Changed!</string>
+    <string name="alert_sim_change_body">New SIM detected: IMSI/Operator %1$s. GPS Coordinates: %2$s.</string>
+    <string name="alert_low_battery_title">Low Battery Emergency Ping</string>
+    <string name="alert_low_battery_body">Battery dropped to %1$d%%. Final location ping transmitted.</string>
+    <string name="alert_admin_tamper_title">Admin Privilege Tamper Attempt</string>
+    <string name="alert_admin_tamper_body">Attempt to deactivate protection detected. Intruder photos logged.</string>
+
+    <!-- Evidence Gallery -->
+    <string name="gallery_title">Intruder Evidence Vault</string>
+    <string name="gallery_empty">No intrusion attempts detected. Your device is safe.</string>
+    <string name="gallery_item_timestamp">Captured: %1$s</string>
+    <string name="gallery_item_trigger">Trigger: %1$s</string>
+    <string name="gallery_item_location">Location: %1$s</string>
+    <string name="btn_view_map">View on Map</string>
+    <string name="btn_delete_evidence">Delete Record</string>
+
+    <!-- Proximity Finder -->
+    <string name="radar_title">Bluetooth Nearby Finder</string>
+    <string name="radar_desc">Uses BLE beacon signal strength (RSSI) to find your phone when it\'s within 10–30 meters (under a cushion, inside a bag, in a car).</string>
+    <string name="radar_searching">Broadcasting beacon signal...</string>
+    <string name="radar_distance_immediate">Immediate (&lt; 1 meter)</string>
+    <string name="radar_distance_near">Near (~2 - 5 meters)</string>
+    <string name="radar_distance_far">Far (~10 - 30 meters)</string>
+    <string name="radar_distance_unknown">Signal not detected</string>
+
+    <!-- Police Report -->
+    <string name="report_title">One-Tap Police Report Export</string>
+    <string name="report_desc">Generate a complete, official police theft dossier ready for Bangladesh Police / Law Enforcement and Telecom Carriers.</string>
+    <string name="btn_generate_pdf">Generate Police Dossier (PDF / Print)</string>
+    <string name="report_btrc_guide_title">BTRC &amp; Carrier IMEI Blacklist Guide</string>
+    <string name="report_btrc_guide_step1">1. Dial *#06# beforehand or copy your IMEI from this app.</string>
+    <string name="report_btrc_guide_step2">2. File a General Diary (GD) at your nearest Police Station in Bangladesh.</string>
+    <string name="report_btrc_guide_step3">3. Submit a copy of the GD to your mobile operator (Grameenphone, Banglalink, Robi, Teletalk) or BTRC to blacklist the handset nationwide via EIR (Equipment Identity Register).</string>
+    <string name="report_frp_notice_title">Factory Reset Protection (FRP) Reality</string>
+    <string name="report_frp_notice_desc">Google FRP prevents thieves from reusing a wiped phone without your Google password. Keep your Google credentials safe!</string>
+
+    <!-- Settings -->
+    <string name="btn_unlock_face">Scan Face / Biometrics to Unlock</string>
+    <string name="settings_title">Security Settings</string>
+    <string name="settings_language">Language / ভাষা</string>
+    <string name="settings_lang_en">English</string>
+    <string name="settings_lang_bn">বাংলা (Bangla)</string>
+    <string name="settings_tracking_interval">Location Tracking Frequency</string>
+    <string name="settings_tracking_realtime">Real-time (High Accuracy, ~1 min)</string>
+    <string name="settings_tracking_balanced">Balanced (~15 min)</string>
+    <string name="settings_tracking_eco">Eco Saver (~1 hour)</string>
+    <string name="settings_geofence_toggle">Safe Zone Geofencing</string>
+    <string name="settings_geofence_desc">Alert owner when phone leaves home/office safe radius</string>
+    <string name="settings_biometric_toggle">Face / Biometric Unlock</string>
+    <string name="settings_biometric_desc">Use Face Unlock or Fingerprint for quick owner verification</string>
+    <string name="settings_audio_toggle">Record 10s Audio on Intrusion (Opt-In)</string>
+    <string name="settings_change_pin">Change Security PIN</string>
+    <string name="settings_uninstall_protection">Uninstall Protection (Device Admin)</string>
+    <string name="settings_uninstall_desc">Requires PIN to deactivate Device Admin</string>
+
+    <!-- Device Admin Strings -->
+    <string name="device_admin_description">Mobile Chor uses Device Administrator rights to lock the screen, safeguard against unauthorized uninstallation, and wipe data upon owner emergency command.</string>
+</resources>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App & Branding -->
+    <string name="app_name">মোবাইল চোর</string>
+    <string name="app_tagline">ব্যক্তিগত মোবাইল চুরি প্রতিরোধ ও নিরাপত্তা প্রহরী</string>
+    <string name="device_owner_label">শুধুমাত্র ফোন মালিকের অনুমোদিত সুরক্ষা</string>
+
+    <!-- Navigation & Tabs -->
+    <string name="nav_dashboard">ড্যাশবোর্ড</string>
+    <string name="nav_evidence">অনুপ্রবেশকারীর ছবি</string>
+    <string name="nav_radar">কাছাকাছি ফাইন্ডার</string>
+    <string name="nav_report">পুলিশ রিপোর্ট</string>
+    <string name="nav_settings">সেটিংস</string>
+
+    <!-- Onboarding & Guardrail Disclosures -->
+    <string name="onboarding_title">ফোন পাহারা সেটআপ করুন</string>
+    <string name="onboarding_subtitle">আপনার নিজস্ব ডিভাইসের মালিক-অনুমোদিত অ্যান্টি-থেফ্ট সুরক্ষা ব্যবস্থা</string>
+    <string name="onboarding_welcome_desc">মোবাইল চোর শুধুমাত্র আপনার নিজের ফোন হারানো বা চুরি হওয়া থেকে রক্ষা করার জন্য তৈরি করা হয়েছে। এটি কঠোরভাবে মালিকের প্রমাণীকরণ মেনে চলে এবং অ্যান্ড্রয়েড নিরাপত্তা নীতি ভঙ্গ করে না।</string>
+    
+    <string name="disclosure_guardrail_title">গুরুত্বপূর্ণ নিরাপত্তা ও আইনি সতর্কবার্তা</string>
+    <string name="disclosure_guardrail_1">• মোবাইল চোর কোনো লুকানো নজরদারি বা স্টকারওয়্যার অ্যাপ নয়। এটি ব্যাকগ্রাউন্ডে সুস্পষ্ট বিজ্ঞপ্তি সহ চালু থাকে এবং মালিকের অজান্তে লুকানো থাকে না।</string>
+    <string name="disclosure_guardrail_2">• রিমোট অ্যাকশন (লক, অ্যালার্ম, ওয়াইপ, ছবি তোলা) শুধুমাত্র আপনি আপনার নিরাপদ মালিক অ্যাকাউন্টের মাধ্যমে কার্যকর করতে পারবেন।</string>
+    <string name="disclosure_guardrail_3">• গোপন অডিও রেকর্ডিং ডিফল্টভাবে বন্ধ থাকে। অননুমোদিত চেষ্টার ক্ষেত্রে শুধুমাত্র অনুপ্রবেশকারীর ছবি স্বয়ংক্রিয়ভাবে সংরক্ষিত হয়।</string>
+    <string name="disclosure_guardrail_4">• ফোন রিসেট করা হলেও অ্যান্ড্রয়েডের ফ্যাক্টরি রিসেট প্রটেকশন (FRP) এবং বিটিআরসি/অপারেটর আইএমইআই ব্ল্যাকলিস্টই চোরের বিরুদ্ধে মূল প্রতিরোধ।</string>
+    <string name="btn_agree_continue">আমি সম্মত ও এগিয়ে চলুন</string>
+    <string name="btn_next">পরবর্তী</string>
+    <string name="btn_back">পূর্ববর্তী</string>
+    <string name="btn_finish">সুরক্ষা সক্রিয় করুন</string>
+
+    <!-- Permission Explanations (Pre-disclosure cards) -->
+    <string name="perm_admin_title">ডিভাইস অ্যাডমিনিস্ট্রেটর অনুমতি</string>
+    <string name="perm_admin_desc">চোর যাতে অ্যাপটি আনইনস্টল বা জোরপূর্বক বন্ধ করতে না পারে এবং দূর থেকে জরুরি লক বা ডাটা ওয়াইপ করা যায় তার জন্য আবশ্যক।</string>
+    <string name="btn_grant_admin">অ্যাডমিন অনুমতি দিন</string>
+
+    <string name="perm_camera_title">সামনের ক্যামেরায় ছবি তোলা</string>
+    <string name="perm_camera_desc">কেউ পরপর ২ বার ভুল পিন দিলে অথবা সিম কার্ড বা পাওয়ার বাটনে হাত দিলে নিঃশব্দে সামনের ক্যামেরায় তার মুখমণ্ডলের ছবি তুলে রাখে।</string>
+    <string name="btn_grant_camera">ক্যামেরা অনুমতি দিন</string>
+
+    <string name="perm_location_title">জিপিএস ও লাইভ অবস্থান ট্র্যাকিং</string>
+    <string name="perm_location_desc">আপনার ওয়েব ড্যাশবোর্ডে ফোনের নিখুঁত লোকেশন দেখায়, নিরাপদ সীমানা নির্ধারণ করে এবং ব্যাটারি ১৫% এর নিচে নামলে স্বয়ংক্রিয়ভাবে জরুরি লোকেশন পাঠায়।</string>
+    <string name="btn_grant_location">লোকেশন অনুমতি দিন</string>
+
+    <string name="perm_phone_title">সিম কার্ড ও টেলিফোনি অবস্থা</string>
+    <string name="perm_phone_desc">চোর যদি আপনার সিম খুলে নতুন সিম কার্ড প্রবেশ করায়, তবে সাথে সাথে সেই নতুন নম্বর ও অবস্থান আপনার জরুরি যোগাযোগ নম্বরে এসএমএস/ইমেইল পাঠাবে।</string>
+    <string name="btn_grant_phone">সিম স্টেট অনুমতি দিন</string>
+
+    <string name="perm_audio_title">জরুরি অডিও রেকর্ডিং (ঐচ্ছিক)</string>
+    <string name="perm_audio_desc">অনুপ্রবেশের সময় ১০ সেকেন্ডের চারপাশের শব্দ রেকর্ডিং। গোপন রেকর্ডিং আইনের কারণে এটি ডিফল্টভাবে বন্ধ থাকে।</string>
+    <string name="perm_audio_legal_warning">আইনি নোটিশ: সম্মতি ছাড়া গোপন অডিও রেকর্ড করা বাংলাদেশের আইন ও আন্তর্জাতিক গোপনীয়তা আইনের পরিপন্থী হতে পারে। আপনি নিজে দায়িত্ব নিলেই কেবল এটি চালু করুন।</string>
+
+    <string name="perm_bluetooth_title">ব্লুটুথ কাছাকাছি ফাইন্ডার</string>
+    <string name="perm_bluetooth_desc">সোফার নিচে, ব্যাগের ভেতরে বা কাছে ১০–৩০ মিটারের মধ্যে হারিয়ে গেলে ব্লুটুথ সিগন্যাল ও রাডারের সাহায্যে ফোনটি সহজে খুঁজে বের করার জন্য।</string>
+
+    <!-- Owner Registration -->
+    <string name="setup_owner_account_title">মালিক ও জরুরি যোগাযোগ নিবন্ধন</string>
+    <string name="owner_name_label">মালিকের পুরো নাম</string>
+    <string name="owner_email_label">মালিকের প্রধান ইমেইল</string>
+    <string name="owner_phone_label">এই ফোনের মোবাইল নম্বর</string>
+    <string name="backup_contact_name_label">জরুরি পরিচিত ব্যক্তির নাম</string>
+    <string name="backup_phone_label">জরুরি ব্যাকআপ মোবাইল নম্বর</string>
+    <string name="backup_email_label">জরুরি অ্যালার্ট ইমেইল</string>
+    <string name="custom_lost_message_label">হারানো স্ক্রিনে প্রদর্শনের বার্তা</string>
+    <string name="custom_lost_message_default">এই ফোনটি হারিয়ে গেছে বা চুরি হয়েছে। অনুগ্রহ করে মালিকের কাছে ফেরত দিন। থানায় জিডি ও পুলিশ রিপোর্ট দাখিল করা হয়েছে।</string>
+
+    <!-- PIN Setup -->
+    <string name="setup_pin_title">অ্যাপ নিরাপত্তা পিন (PIN) নির্ধারণ</string>
+    <string name="setup_pin_desc">অ্যাপ খুলতে, সেটিংস পরিবর্তন করতে বা অ্যাডমিন বন্ধ করতে ৪ থেকে ৬ ডিজিটের গোপন পিন নম্বর সেট করুন।</string>
+    <string name="pin_label">নিরাপত্তা পিন (PIN)</string>
+    <string name="pin_confirm_label">পিন পুনরায় লিখুন</string>
+    <string name="pin_mismatch_error">উভয় পিন এক নয়! আবার চেষ্টা করুন।</string>
+    <string name="pin_invalid_error">পিন অবশ্যই ৪ থেকে ৬ ডিজিটের হতে হবে।</string>
+
+    <!-- Dashboard Status -->
+    <string name="status_protected">সুরক্ষা সক্রিয় রয়েছে</string>
+    <string name="status_compromised">অনুপ্রবেশ অ্যালার্ট সক্রিয়!</string>
+    <string name="status_lost_mode">হারানো মোড চালু আছে</string>
+    <string name="status_battery">ব্যাটারি</string>
+    <string name="status_network">নেটওয়ার্ক</string>
+    <string name="status_sim">সিম স্ট্যাটাস</string>
+    <string name="status_last_seen">সর্বশেষ পিং</string>
+    <string name="status_device_id">ডিভাইস ফিঙ্গারপ্রিন্ট</string>
+    <string name="status_imei_note">আইএমইআই (অ্যান্ড্রয়েড ১০+ ফলব্যাক)</string>
+
+    <!-- Quick Action Controls -->
+    <string name="action_sound_alarm">সাইরেন বাজিয়ে পরীক্ষা</string>
+    <string name="action_stop_alarm">সাইরেন বন্ধ করুন</string>
+    <string name="action_engage_lost">হারানো মোড চালু করুন</string>
+    <string name="action_test_camera">ছবি তোলার পরীক্ষা</string>
+    <string name="action_sync_cloud">ড্যাশবোর্ডের সাথে সিঙ্ক</string>
+
+    <!-- Lock Screen & Security Verification -->
+    <string name="lock_enter_pin">নিরাপত্তা পিন দিন</string>
+    <string name="lock_biometric_prompt">আঙুলের ছাপ বা ফেসলক দিয়ে যাচাই করুন</string>
+    <string name="lock_wrong_pin">ভুল পিন! চেষ্টা %1$d / ২।</string>
+    <string name="lock_intruder_captured">অনুপ্রবেশকারীর ছবি নিঃশব্দে তোলা হয়েছে এবং অ্যালার্ট পাঠানো হয়েছে!</string>
+    <string name="lock_emergency_call">জরুরি কল</string>
+    <string name="lock_call_owner">মালিককে কল করুন (%1$s)</string>
+
+    <!-- Intrusion & Alerts -->
+    <string name="alert_wrong_pin_title">সতর্কতা: পরপর ভুল পিন ইনপুট</string>
+    <string name="alert_wrong_pin_body">%1$s এ ভুল পিন দেওয়া হয়েছে। ছবি ও অবস্থান সংরক্ষিত।</string>
+    <string name="alert_sim_change_title">জরুরি সতর্কবার্তা: সিম কার্ড পরিবর্তন করা হয়েছে!</string>
+    <string name="alert_sim_change_body">নতুন সিম শনাক্ত: অপারেটর %1$s। জিপিএস অবস্থান: %2$s।</string>
+    <string name="alert_low_battery_title">কম ব্যাটারির জরুরি লোকেশন পিং</string>
+    <string name="alert_low_battery_body">ব্যাটারি %1$d%% এ নেমে গেছে। বন্ধ হওয়ার আগে সর্বশেষ লোকেশন পাঠানো হয়েছে।</string>
+    <string name="alert_admin_tamper_title">অ্যাডমিন বন্ধ করার অপচেষ্টা</string>
+    <string name="alert_admin_tamper_body">অ্যাপ সরানোর চেষ্টার সময় অনুপ্রবেশকারীর ৫টি ছবি ধারন করা হয়েছে।</string>
+
+    <!-- Evidence Gallery -->
+    <string name="gallery_title">অনুপ্রবেশকারীর প্রমাণশালা (Evidence Vault)</string>
+    <string name="gallery_empty">কোনো অবৈধ প্রবেশের চেষ্টা শনাক্ত হয়নি। আপনার ফোন নিরাপদ।</string>
+    <string name="gallery_item_timestamp">সময়: %1$s</string>
+    <string name="gallery_item_trigger">কারণ: %1$s</string>
+    <string name="gallery_item_location">অবস্থান: %1$s</string>
+    <string name="btn_view_map">ম্যাপে দেখুন</string>
+    <string name="btn_delete_evidence">রেকর্ড মুছুন</string>
+
+    <!-- Proximity Finder -->
+    <string name="radar_title">ব্লুটুথ কাছাকাছি ফাইন্ডার</string>
+    <string name="radar_desc">কাছাকাছি ১০–৩০ মিটারের মধ্যে হারিয়ে যাওয়া ফোন ব্লুটুথ সিগন্যাল শক্তিমত্তা (RSSI) দিয়ে সোফা বা ব্যাগের ভেতর থেকে খুঁজে বের করুন।</string>
+    <string name="radar_searching">ব্লুটুথ সিগন্যাল প্রচার করা হচ্ছে...</string>
+    <string name="radar_distance_immediate">একদম কাছে (&lt; ১ মিটার)</string>
+    <string name="radar_distance_near">কাছাকাছি (~২ - ৫ মিটার)</string>
+    <string name="radar_distance_far">দূরে (~১০ - ৩০ মিটার)</string>
+    <string name="radar_distance_unknown">সিগন্যাল পাওয়া যায়নি</string>
+
+    <!-- Police Report -->
+    <string name="report_title">এক ক্লিকে পুলিশ রিপোর্ট তৈরি</string>
+    <string name="report_desc">বাংলাদেশ পুলিশ বা আইন প্রয়োগকারী সংস্থার জন্য আইএমইআই, অবস্থান ও অনুপ্রবেশকারীর ছবিসহ পূর্ণাঙ্গ জিডি/অভিযোগপত্র তৈরি করুন।</string>
+    <string name="btn_generate_pdf">পুলিশ অভিযোগপত্র তৈরি করুন (PDF/প্রিন্ট)</string>
+    <string name="report_btrc_guide_title">বিটিআরসি ও মোবাইল অপারেটর আইএমইআই ব্ল্যাকলিস্ট নির্দেশিকা</string>
+    <string name="report_btrc_guide_step1">১. পূর্বেই *#06# ডায়াল করে অথবা এই অ্যাপ থেকে আপনার আইএমইআই (IMEI) সংরক্ষণ করুন।</string>
+    <string name="report_btrc_guide_step2">২. ফোন চুরি হলে নিকটস্থ থানায় গিয়ে জিডি (সাধারণ ডায়েরি) দায়ের করুন।</string>
+    <string name="report_btrc_guide_step3">৩. জিডির কপি সহ মোবাইল অপারেটর (গ্রামীণফোন, বাংলালিংক, রবি, টেলিটক) বা বিটিআরসি (EIR সিস্টেম)-এ জমা দিয়ে হ্যান্ডসেটটি সারা দেশে ব্লক করান।</string>
+    <string name="report_frp_notice_title">ফ্যাক্টরি রিসেট প্রটেকশন (FRP) এর বাস্তবতা</string>
+    <string name="report_frp_notice_desc">গুগল এফআরপি (FRP) এর কারণে ফোন রিসেট দিলেও আপনার গুগল পাসওয়ার্ড ছাড়া ফোনটি ব্যবহার বা বিক্রি করা অসম্ভব। সর্বদা গুগল পাসওয়ার্ড সুরক্ষিত রাখুন!</string>
+
+    <!-- Settings -->
+    <string name="btn_unlock_face">ফেস আনলক বা বায়োমেট্রিক দিয়ে আনলক করুন</string>
+    <string name="settings_title">নিরাপত্তা সেটিংস</string>
+    <string name="settings_language">ভাষা / Language</string>
+    <string name="settings_lang_en">English</string>
+    <string name="settings_lang_bn">বাংলা (Bangla)</string>
+    <string name="settings_tracking_interval">লোকেশন ট্র্যাকিংয়ের হার</string>
+    <string name="settings_tracking_realtime">রিয়েল-টাইম (সর্বোচ্চ নির্ভুল, ~১ মিনিট)</string>
+    <string name="settings_tracking_balanced">ব্যালেন্সড (~১৫ মিনিট)</string>
+    <string name="settings_tracking_eco">ইকো ব্যাটারি সেভার (~১ ঘণ্টা)</string>
+    <string name="settings_geofence_toggle">নিরাপদ এলাকা (Geofencing)</string>
+    <string name="settings_geofence_desc">বাসা বা অফিস এলাকা ত্যাগ করলে সতর্কবার্তা পাঠাবে</string>
+    <string name="settings_biometric_toggle">ফেস রিকগনিশন ও বায়োমেট্রিক নিরাপত্তা</string>
+    <string name="settings_biometric_desc">দ্রুত মালিকের পরিচয় যাচাইয়ে ফেস আনলক বা বায়োমেট্রিক ব্যবহার করুন</string>
+    <string name="settings_audio_toggle">অনুপ্রবেশের সময় ১০ সে. অডিও রেকর্ড (ঐচ্ছিক)</string>
+    <string name="settings_change_pin">নিরাপত্তা পিন পরিবর্তন করুন</string>
+    <string name="settings_uninstall_protection">আনইনস্টল সুরক্ষা (ডিভাইস অ্যাডমিন)</string>
+    <string name="settings_uninstall_desc">অ্যাডমিন নিষ্ক্রিয় করতে মালিকের পিন আবশ্যক</string>
+
+    <!-- Device Admin Strings -->
+    <string name="device_admin_description">মোবাইল চোর স্ক্রিন লক করা, অননুমোদিত আনইনস্টলেশন ঠেকানো এবং জরুরি প্রয়োজনে ডাটা মুছে ফেলার জন্য ডিভাইস অ্যাডমিনিস্ট্রেটর অধিকার ব্যবহার করে।</string>
+</resources>
